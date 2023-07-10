@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Welcome to My Website</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h3>Jake's Website</h3>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="https://github.com/JakeM808">My Github</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Me</a></li>
+                    </ul>
+            </nav>
+        </header>
+        <main>
+          <div id="main-articles">  
+            <article>
+                <h2>Everest's First Birthday</h2>
+                <img class="image-fit" src="./images/IMG_0207.jpg">
+                <p>This was baby Everest's party at the Kahala Mandarin Hotel. That's me in the middle and my father on my left. My brother Max is behind the baby with grandma behind me and Mom next to her.</p>
+            </article>
+            <article>
+                <h2>My Day at the Waterfall</h2>
+                <img class="image-fit" src="./images/echo.JPG">
+                <p id="Echo">This is my dog Echo</p>
+            </article>
+          </div>  
+          <div id="side-bar">
+
+            <article class="grey-bg">
+                <img id="profile-pic" src="./images/profile_pic.JPG">
+                <h2>Jake Matthews</h2>
+                Kauai, Hawaii<br>
+            </article>
+            <article class="grey-bg">
+                <h2>Contact Me</h2>
+                <form action="mailto:Jake.m86@gmail.com" method="POST">
+                    <div>
+                        <label for="name_field">Your Full Name</label>
+                    </div>    
+                    <input id="name_field" name="name_field" type="text" placeholder="Name"></input>
+                    <div>
+                        <label for="email_field">Your Email</label>
+                    </div>    
+                    <input id="email_field" name="email_field" type="email" placeholder="Email"></input>
+                    <div>
+                        <label for="message_field">Your Message</label>
+                    </div>
+                    <textarea id="message_field" name="message_field" rows="5" placeholder="My Message"></textarea>
+                    <div>
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </article>
+          </div>  
+        </main>
+        <footer>
+            &copy; 2023 Coding Temple, Inc.
+        </footer>
+    </body>
+
+
+</html>
