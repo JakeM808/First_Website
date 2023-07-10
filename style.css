@@ -16,6 +16,7 @@ nav{
 nav a{
     color:dodgerblue;
     text-decoration:none;
+    margin-left: 50px;
 }
 nav ul{
     list-style-type: none;
@@ -31,7 +32,7 @@ nav{
 }
 
 h1, h2, h3, h4, h5, h6{
-    color:#dbd053;
+    color:#1ec3ec;
 }
 
 main{
@@ -56,7 +57,8 @@ main{
     width:30%;
     padding: 50px 20px 20px 20px;
     border: 1px solid black;
-    background:linear-gradient(rgb(0,0,0,.5), rgb(0,0,0,.5)) url('./images/jjf-feat-what-he-rode.jpg');
+    background:linear-gradient(rgb(0,0,0,.5), rgb(0,0,0,.5));
+    background-image:url('./images/jjf-feat-what-he-rode.jpg');
     background-repeat:no-repeat;
     background-position: center;
     background-size: cover;
@@ -66,16 +68,11 @@ main{
 }
 
 #profile-pic{
-    width:75%;
-    border-radius:50%;
+    width:95%;
     border: 3px solid whitesmoke;
     margin-bottom: 10px
 }
 
-article p::first-line{
-    font-variant: small-caps;
-    font-size: x-large;
-}
 
 footer{
     text-align:center;
@@ -88,7 +85,7 @@ footer{
     background: linear-gradient(rgb(0,0,0,.5),rgb(0,0,0,.5));
     margin-bottom:50px;
     padding:25px;
-    border: 4px double #dbd053;
+    border: 4px ridge #1edfe6;
     border-radius: 20px
 }
 
@@ -96,7 +93,7 @@ textarea, input{
     border-radius: 10px;
     padding:10px;
     margin-bottom: 10px;
-    background-color: dodgerblue;
+    background-color: hwb(209 9% 82%);
 }
 
 input::placeholder, textarea::placeholder{
@@ -104,11 +101,11 @@ input::placeholder, textarea::placeholder{
 }
 
 input:valid{
-    background-color: dodgerblue;
+    background-color: hwb(209 9% 82%);
 }
 
 button{
-    background-color: dodgerblue;
+    background-color: hwb(209 9% 82%);
     border-radius: 10px;
     padding: 8px;
     width:80%;
@@ -125,6 +122,6 @@ button:hover{
     border-color:whitesmoke;
 }
 
-#echo{
+span{
     color:blue;
 }
